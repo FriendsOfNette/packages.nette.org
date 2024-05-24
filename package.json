@@ -20,7 +20,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "cross-env": "^7.0.2",
     "css-loader": "^6.6.0",
-    "css-minimizer-webpack-plugin": "^4.2.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^8.1.0",
     "mini-css-extract-plugin": "^2.7.6",
