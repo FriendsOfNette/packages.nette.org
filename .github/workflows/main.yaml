@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v3"
+        uses: "actions/checkout@v4"
 
       - name: "Setup PHP cache environment"
         id: "extcache"
@@ -41,7 +41,7 @@ jobs:
           key: "${{ env.cacheVersion }}"
 
       - name: "Cache PHP extensions"
-        uses: "actions/cache@v3"
+        uses: "actions/cache@v4"
         with:
           path: "${{ steps.extcache.outputs.dir }}"
           key: "${{ steps.extcache.outputs.key }}"
@@ -62,7 +62,7 @@ jobs:
         run: 'echo "::set-output name=dir::$(composer config cache-files-dir)"'
 
       - name: "Cache PHP dependencies"
-        uses: "actions/cache@v3"
+        uses: "actions/cache@v4"
         with:
           path: "${{ steps.composercache.outputs.dir }}"
           key: "${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}"
@@ -78,12 +78,12 @@ jobs:
         run: "make codesniffer"
 
       - name: "Install Node.js"
-        uses: "actions/setup-node@v3"
+        uses: "actions/setup-node@v4"
         with:
           node-version: "${{ matrix.node-versions }}"
 
       - name: "Cache Node.js dependencies"
-        uses: "actions/cache@v3"
+        uses: "actions/cache@v4"
         with:
           path: node_modules
           key: "${{ runner.os }}-npm-${{ hashFiles('**/package.json') }}"
@@ -107,7 +107,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v3"
+        uses: "actions/checkout@v4"
 
       - name: "Setup PHP cache environment"
         id: "extcache"
@@ -118,7 +118,7 @@ jobs:
           key: "${{ env.cacheVersion }}"
 
       - name: "Cache PHP extensions"
-        uses: "actions/cache@v3"
+        uses: "actions/cache@v4"
         with:
           path: "${{ steps.extcache.outputs.dir }}"
           key: "${{ steps.extcache.outputs.key }}"
@@ -139,7 +139,7 @@ jobs:
         run: 'echo "::set-output name=dir::$(composer config cache-files-dir)"'
 
       - name: "Cache PHP dependencies"
-        uses: "actions/cache@v3"
+        uses: "actions/cache@v4"
         with:
           path: "${{ steps.composercache.outputs.dir }}"
           key: "${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}"
@@ -152,12 +152,12 @@ jobs:
         run: "make phpstan"
 
       - name: "Install Node.js"
-        uses: "actions/setup-node@v3"
+        uses: "actions/setup-node@v4"
         with:
           node-version: "${{ matrix.node-versions }}"
 
       - name: "Cache Node.js dependencies"
-        uses: "actions/cache@v3"
+        uses: "actions/cache@v4"
         with:
           path: node_modules
           key: "${{ runner.os }}-npm-${{ hashFiles('**/package.json') }}"
@@ -182,7 +182,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v3"
+        uses: "actions/checkout@v4"
 
       - name: "Setup PHP cache environment"
         id: "extcache"
@@ -193,7 +193,7 @@ jobs:
           key: "${{ env.cacheVersion }}"
 
       - name: "Cache PHP extensions"
-        uses: "actions/cache@v3"
+        uses: "actions/cache@v4"
         with:
           path: "${{ steps.extcache.outputs.dir }}"
           key: "${{ steps.extcache.outputs.key }}"
@@ -214,7 +214,7 @@ jobs:
         run: 'echo "::set-output name=dir::$(composer config cache-files-dir)"'
 
       - name: "Cache PHP dependencies"
-        uses: "actions/cache@v3"
+        uses: "actions/cache@v4"
         with:
           path: "${{ steps.composercache.outputs.dir }}"
           key: "${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}"
