@@ -47,7 +47,7 @@
     "nette/robot-loader": "^3.2.0",
     "nextras/dbal": "4.0.4",
     "nextras/migrations": "3.2.0",
-    "nextras/orm": "4.0.6",
+    "nextras/orm": "4.0.7",
     "wavevision/nette-webpack": "^2.0.0",
     "wavevision/props-control": "dev-next as 6.99",
     "wavevision/utils": "^2.12"

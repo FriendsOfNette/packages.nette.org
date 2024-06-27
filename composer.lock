@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b31b7d4dba79759632af7e02f68b6ac",
+    "content-hash": "681852535ef6ab20772b4d35ff0c51de",
     "packages": [
         {
             "name": "contributte/application",
@@ -2270,16 +2270,16 @@
         },
         {
             "name": "nextras/orm",
-            "version": "v4.0.6",
+            "version": "v4.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nextras/orm.git",
-                "reference": "2abc593a3bb7a80bdb9ad94f3e9c47ead65ea69f"
+                "reference": "28c98dd0f6ac559983b4c7f40d1dc2871e4c3c0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nextras/orm/zipball/2abc593a3bb7a80bdb9ad94f3e9c47ead65ea69f",
-                "reference": "2abc593a3bb7a80bdb9ad94f3e9c47ead65ea69f",
+                "url": "https://api.github.com/repos/nextras/orm/zipball/28c98dd0f6ac559983b4c7f40d1dc2871e4c3c0a",
+                "reference": "28c98dd0f6ac559983b4c7f40d1dc2871e4c3c0a",
                 "shasum": ""
             },
             "require": {
@@ -2287,7 +2287,7 @@
                 "ext-json": "*",
                 "nette/caching": "~2.5 || ~3.0",
                 "nette/tokenizer": "~2.3 || ~3.0",
-                "nette/utils": "~2.5 || ~3.0",
+                "nette/utils": "~3.0 || ~4.0",
                 "nextras/dbal": "~4.0@dev",
                 "php": ">=7.1"
             },
@@ -2296,10 +2296,10 @@
                 "marc-mabe/php-enum-phpstan": "2.0.0",
                 "mockery/mockery": "~1.2",
                 "nette/bootstrap": "~2.4 || ~3.0",
-                "nette/di": "~2.4 >=2.4.10 || ~3.0",
+                "nette/di": "~3.0",
                 "nette/finder": "~2.4 || ~3.0",
                 "nette/neon": "~2.4 || ~3.0",
-                "nette/tester": "~2.3",
+                "nette/tester": "~2.3.5",
                 "nextras/orm-phpstan": "1.0.0",
                 "phpstan/extension-installer": "1.0.5",
                 "phpstan/phpstan": "1.1.2",
@@ -2342,7 +2342,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nextras/orm/issues",
-                "source": "https://github.com/nextras/orm/tree/v4.0.6"
+                "source": "https://github.com/nextras/orm/tree/v4.0.7"
             },
             "funding": [
                 {
@@ -2350,7 +2350,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-07T07:36:49+00:00"
+            "time": "2023-07-01T10:25:02+00:00"
         },
         {
             "name": "psr/container",
