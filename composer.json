@@ -43,7 +43,7 @@
     "contributte/nextras-orm-query-object": "0.5.0",
     "contributte/security": "^0.4.0",
     "contributte/tracy": "^0.5.0",
-    "contributte/utils": "^0.5.2",
+    "contributte/utils": "^0.6.0",
     "nette/robot-loader": "^3.2.0",
     "nextras/dbal": "4.0.4",
     "nextras/migrations": "3.2.0",

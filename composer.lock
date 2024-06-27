@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b31b7d4dba79759632af7e02f68b6ac",
+    "content-hash": "267292d9b9a2270342dd9d1eace10f14",
     "packages": [
         {
             "name": "contributte/application",
@@ -815,21 +815,21 @@
         },
         {
             "name": "contributte/utils",
-            "version": "v0.5.2",
+            "version": "v0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contributte/utils.git",
-                "reference": "e2d9c380dbb179cf15a66555924ab2792b2c1769"
+                "reference": "f9796645d3cc2b0fa75ee5de0e35d24421feb35e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contributte/utils/zipball/e2d9c380dbb179cf15a66555924ab2792b2c1769",
-                "reference": "e2d9c380dbb179cf15a66555924ab2792b2c1769",
+                "url": "https://api.github.com/repos/contributte/utils/zipball/f9796645d3cc2b0fa75ee5de0e35d24421feb35e",
+                "reference": "f9796645d3cc2b0fa75ee5de0e35d24421feb35e",
                 "shasum": ""
             },
             "require": {
-                "nette/utils": "^3.0.1",
-                "php": ">=7.2"
+                "nette/utils": "^3.2.9 || ^4.0.0",
+                "php": ">=8.0"
             },
             "conflict": {
                 "nette/di": "<3.0.0"
@@ -878,7 +878,7 @@
             ],
             "support": {
                 "issues": "https://github.com/contributte/utils/issues",
-                "source": "https://github.com/contributte/utils/tree/v0.5.2"
+                "source": "https://github.com/contributte/utils/tree/v0.6.0"
             },
             "funding": [
                 {
@@ -890,7 +890,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-26T13:10:34+00:00"
+            "time": "2023-04-25T12:54:31+00:00"
         },
         {
             "name": "latte/latte",
